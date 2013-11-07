@@ -23,6 +23,9 @@ lexers.find_lexer_class('Slash')
 ```
 
 ### Changelog
+__v0.0.2 [2013-11-07]__
+* Fix version number 
+
 __v0.0.1 [2013-08-20]__
 * Release.
 
