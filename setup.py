@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 from setuptools import setup
-from pygments_github_lexers import VERSION
+VERSION = '0.0.4'
 
 
 setup(name='pygments-github-lexers',
@@ -16,8 +16,8 @@ setup(name='pygments-github-lexers',
       url='https://github.com/liluo/pygments-github-lexers',
 
       packages=['pygments_github_lexers'],
-      install_requires=['pygments>=1.6'],
-
+      dependency_links=['https://github.com/liluo/pygments/tarball/master#egg=Pygments-1.6'],
+      install_requires=[],
       entry_points='''[pygments.lexers]
                       Dasm16Lexer=pygments_github_lexers:Dasm16Lexer
                       PuppetLexer=pygments_github_lexers:PuppetLexer
