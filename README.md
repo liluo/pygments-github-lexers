@@ -1,4 +1,4 @@
-Pygments Github Cutsom Lexers
+Pygments Github Custom Lexers
 =============================
 [![Build Status](https://travis-ci.org/liluo/mime.png)](https://travis-ci.org/liluo/pygments_github_lexers)
 
