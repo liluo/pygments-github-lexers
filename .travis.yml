@@ -14,4 +14,4 @@ branches:
     - master
 
 script:
-  - "pip install git+https://github.com/satreix/pygments-github-lexers@master"
+  - "pip install pygments_github_lexers"
