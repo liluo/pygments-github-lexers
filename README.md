@@ -23,7 +23,11 @@ lexers.find_lexer_class('Slash')
 ```
 
 ### Changelog
-__v0.0.2 [2013-11-07]__
+
+__v0.0.4 [2015-01-14]__
+* Compatible Python 3.x
+
+__v0.0.3 [2013-11-07]__
 * Fix version number 
 
 __v0.0.1 [2013-08-20]__
