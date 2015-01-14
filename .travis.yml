@@ -14,4 +14,4 @@ branches:
     - master
 
 script:
-  - "pip install pygments_github_lexers"
+  - "python setup.py install"
