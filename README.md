@@ -24,6 +24,9 @@ lexers.find_lexer_class('Slash')
 
 ### Changelog
 
+__v0.0.5 [2015-01-21]__
+* Install Pygments automaticaly
+
 __v0.0.4 [2015-01-14]__
 * Compatible Python 3.x
 

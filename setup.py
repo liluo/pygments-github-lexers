@@ -1,11 +1,9 @@
 #!/usr/bin/python
 
 from setuptools import setup
-from pygments_github_lexers import VERSION
-
 
 setup(name='pygments-github-lexers',
-      version=VERSION,
+      version='0.0.5',
       description='Pygments Github custom lexers.',
       keywords='pygments github lexer',
       license='BSD',
@@ -16,7 +14,7 @@ setup(name='pygments-github-lexers',
       url='https://github.com/liluo/pygments-github-lexers',
 
       packages=['pygments_github_lexers'],
-      install_requires=['pygments>=1.6'],
+      install_requires=['pygments>=2.0.2'],
 
       entry_points='''[pygments.lexers]
                       Dasm16Lexer=pygments_github_lexers:Dasm16Lexer
